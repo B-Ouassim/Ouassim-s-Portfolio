@@ -34,6 +34,7 @@ const App = () => {
 
       {/* The main content only renders once loading is done, 
           or stays hidden behind the loader */}
+    {!isLoading && (
       <main>
         <CustomCursor />
         <Navbar />
@@ -45,6 +46,7 @@ const App = () => {
         <Certificates />
         <Contact />
       </main>
+    )}
       
     </div>
   );
