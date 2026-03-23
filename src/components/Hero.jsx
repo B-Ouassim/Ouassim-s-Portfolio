@@ -15,7 +15,11 @@ const Hero = () => {
   }, []);
 
   return (
+<<<<<<< HEAD
     <section id="home" className="h-screen flex flex-col items-center justify-center lg:pt-32 relative bg-[#FFFCF2]">
+=======
+    <section id="home" className="h-screen flex flex-col items-center justify-center lg:pt-32 relative bg-[#FFFBFOF]">
+>>>>>>> 3f644925b00696f40b63b58b31c21a2756fc1e89
       <div className="text-center z-10">
         <div className="h-20 flex items-center justify-center">
           <AnimatePresence mode="wait">
@@ -60,6 +64,7 @@ const Hero = () => {
             </motion.span>
           </AnimatePresence>
       </motion.div>
+<<<<<<< HEAD
 
       {/* Floating Scroll Indicator */}
       <motion.div 
@@ -77,6 +82,8 @@ const Hero = () => {
           <div className="absolute top-0 left-0 w-full h-1/2 bg-[#53161D]" />
         </motion.div>
       </motion.div>
+=======
+>>>>>>> 3f644925b00696f40b63b58b31c21a2756fc1e89
     </section>
   );
 };

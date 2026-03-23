@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
@@ -51,3 +52,23 @@ const App = () => {
 };
 
 export default App;
+=======
+import React from 'react'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+
+const App = () => {
+  return (
+    <div style={{height: '200vh'}} className='bg-[#FFFCF2]'>
+      <Navbar />
+      <div>
+        <Hero />
+        <About />
+      </div>
+    </div>
+  )
+}
+
+export default App
+>>>>>>> 3f644925b00696f40b63b58b31c21a2756fc1e89
