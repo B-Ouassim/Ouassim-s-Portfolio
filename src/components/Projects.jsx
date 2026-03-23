@@ -6,24 +6,36 @@ const projects = [
   { 
     title: "Enterprise System", 
     desc: "Enterprise-grade inventory and user tracking system featuring real-time data sync.", 
-    tech: ["React", "Node.js", "MongoDB", "Tailwind"],
+    tech: ["React", "Node.js", "MongoDB", "Tailwind", "Motion"],
     demo: "https://aymensiraj.github.io/Gestion-de-Stock-Entreprise",
     img: "gestion_stock"
   },
   { 
     title: "Inventory Tracker", 
     desc: "Enterprise-grade inventory tracking system featuring real-time data sync.",  
-    tech: ["React", "Tailwind"],
-    demo: "https://aymensiraj.github.io/PAPER_ROCK_SCISSORS/",
+    tech: ["React", "Redux", "JSON", "Tailwind"],
+    demo: "https://aymensiraj.github.io/Gestion-de-Stock-Entreprise",
     img: "game_project"
   },
   { 
     title: "Pizza Palace", 
     desc: "High-conversion landing page focused on fast load times and mobile UX.", 
-    tech: ["React", "Tailwind"],
+    tech: ["React", "Tailwind", "Motion"],
     demo: "https://aymensiraj.github.io/Pizza-LandingPage/",
     img: "pizza"
   },
+  // https://b-ouassim.github.io/Cafe-Landing-Page/    react
+  // https://b-ouassim.github.io/Pizza-Landing-Page/   react
+  // https://b-ouassim.github.io/Wealthome-Property-Lister/Wealthome-Project-main/  js
+  // https://b-ouassim.github.io/JS-Weather-App/   js
+  // https://b-ouassim.github.io/random-password-generator/Generate-Paswwords-main/   js
+  // https://b-ouassim.github.io/JS-Local-Storage-ToDo-App/To-Do-List/    js
+  // https://b-ouassim.github.io/JS-Interactive-Quiz-App/Quiz-App-main/   js
+  // https://github.com/B-Ouassim/Python-Password-Generator-CLI  py
+  // https://github.com/B-Ouassim/Python-Rock-Paper-Scissors-CLI  py
+  // https://github.com/B-Ouassim/Python-CLI-Mad-Libs-Game   py
+  // https://github.com/B-Ouassim/guess-the-number   py
+  // https://b-ouassim.github.io/X-O-Game/X-O--Game-main/  js
   { 
     title: "Crispy Landing", 
     desc: "Clean, responsive landing page built with core web technologies.", 
