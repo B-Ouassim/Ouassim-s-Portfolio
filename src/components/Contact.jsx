@@ -28,7 +28,11 @@ const Contact = () => {
 
           {/* Large Magnetic-style Email Button */}
           <motion.a
+<<<<<<< HEAD
             href="mailto:babakhaliouassim@gmail.com"
+=======
+            href="mailto:babakhaliouassim@example.com"
+>>>>>>> 45197ca87a8758473ce6c7d0043fbcfe4f9615d4
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="group relative inline-flex items-center gap-6 bg-[#FFFCF2] text-[#53161D] px-12 py-8 rounded-full text-2xl md:text-4xl font-black uppercase tracking-tighter hover:bg-white transition-all shadow-2xl"
@@ -55,7 +59,11 @@ const Contact = () => {
           {[
             { icon: <FiGithub size={24}/>, link: "https://github.com/B-Ouassim" },
             { icon: <FiLinkedin size={24}/>, link: "https://www.linkedin.com/in/ouassim-babakhali-69bb272b4" },
+<<<<<<< HEAD
             { icon: <FiMail size={24}/>, link: "mailto:babakhaliouassim@gmail.com" }
+=======
+            { icon: <FiMail size={24}/>, link: "mailto:babakhaliouassim@example.com" }
+>>>>>>> 45197ca87a8758473ce6c7d0043fbcfe4f9615d4
           ].map((social, i) => (
             <motion.a
               key={i}

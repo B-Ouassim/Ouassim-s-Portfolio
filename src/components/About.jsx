@@ -29,7 +29,11 @@ const About = () => {
           
           <div className="relative aspect-[4/5] rounded-xl overflow-hidden shadow-2xl bg-[#2A0B0E]">
             <img 
+<<<<<<< HEAD
               src="person.avif"
+=======
+              src="/your-image-path.jpg" // Add your pfp2 path here
+>>>>>>> 45197ca87a8758473ce6c7d0043fbcfe4f9615d4
               alt="Aymen Working" 
               className="w-full h-full object-cover grayscale contrast-125 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" 
             />
@@ -88,7 +92,11 @@ const About = () => {
              className="flex gap-8 pt-4"
           >
             <div>
+<<<<<<< HEAD
               <p className="text-[#FFFCF2] font-black text-3xl">Graduated</p>
+=======
+              <p className="text-[#FFFCF2] font-black text-3xl">PFE</p>
+>>>>>>> 45197ca87a8758473ce6c7d0043fbcfe4f9615d4
               <p className="text-[#9FB2AC] text-xs uppercase font-mono mt-1 font-bold">Current Status</p>
             </div>
             <div className="w-[1px] h-12 bg-[#FFFCF2]/10" />
