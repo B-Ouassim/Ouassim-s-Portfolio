@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html { scroll-behavior: smooth; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+@layer utilities {
+  .cursor-custom-dot {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="6" fill="%234f46e5"/></svg>') 16 16, auto;
+  }
+}
+
+html {
+  cursor: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='10' border='1' cy='10' r='5' stroke='%2353161D' stroke-width='1'/%3E%3C/svg%3E") 10 10, auto;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+}
