@@ -36,12 +36,8 @@ const skills = [
     tools: [
       { name: "Git", bg_color: "bg-[#F05032]/10", color: "text-[#F05032]", slug: "git" }, 
       { name: "GitHub", bg_color: "bg-white/10", color: "text-white", slug: "github" },
-<<<<<<< HEAD
       { name: "Jira", bg_color: "bg-[#0052CC]/10", color: "text-[#0052CC]", slug: "jira" },
       { name: "Docker", bg_color: "bg-[#2496ED]/10", color: "text-[#2496ED]", slug: "docker" }
-=======
-      { name: "Jira", bg_color: "bg-[#0052CC]/10", color: "text-[#0052CC]", slug: "jira" } 
->>>>>>> 45197ca87a8758473ce6c7d0043fbcfe4f9615d4
     ],
     accent: "group-hover:shadow-[0_0_40px_rgba(255,255,255,0.1)]",
     dot: "bg-white" 
